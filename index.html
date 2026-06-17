@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Douceur | Luxury Sweet Shop</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">La Douceur</a>
+            <nav class="nav-menu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">Our Story</a>
+                <a href="#collection" class="nav-link">Collections</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-cta">
+                <a href="#collection" class="btn btn-outline btn-sm">Order Now</a>
+            </div>
+            <button class="mobile-nav-toggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <span class="hero-subtitle">Haute Pâtisserie & Confectionery</span>
+            <h1 class="hero-title">Indulge in Pure Elegance</h1>
+            <p class="hero-description">Handcrafted luxury sweets made with the finest ingredients, passion, and Parisian artistry.</p>
+            <div class="hero-actions">
+                <a href="#collection" class="btn btn-primary">Explore Our Collection</a>
+                <a href="#about" class="btn btn-secondary">Our Story</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="mouse">
+                <span class="wheel"></span>
+            </span>
+            <span class="scroll-text">Scroll to discover</span>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-subtitle">Since 1924</span>
+                    <h2 class="section-title">The Art of Sweetness</h2>
+                    <p class="about-text">
+                        For nearly a century, <strong>La Douceur</strong> has been crafting exceptional confections that celebrate the delicate balance of taste and beauty. Founded in the heart of Paris, our heritage is rooted in traditional French pastry techniques, passed down through generations of master chocolatiers and pâtissiers.
+                    </p>
+                    <p class="about-text">
+                        Every single macaron, truffle, and tart is made by hand in our atelier daily. We source only the rarest single-origin cacao, organic local cream, and freshly harvested seasonal fruits to ensure each bite is an unforgettable symphony of flavor.
+                    </p>
+                    <div class="about-signature">
+                        <p class="signature-name">Jean-Luc Laurent</p>
+                        <p class="signature-title">Master Pâtissier</p>
+                    </div>
+                </div>
+                <div class="about-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80" alt="Exquisite Dessert Preparation" class="about-image">
+                    <div class="about-image-accent"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ingredients/Value Banner -->
+    <section class="values-section">
+        <div class="container value-grid">
+            <div class="value-item">
+                <div class="value-icon">
+                    <i class="fa-solid fa-seedling"></i>
+                </div>
+                <h3 class="value-title">Organic Ingredients</h3>
+                <p class="value-desc">Sourced from sustainable, local farms and premium global growers.</p>
+            </div>
+            <div class="value-item">
+                <div class="value-icon">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <h3 class="value-title">Artisanal Craft</h3>
+                <p class="value-desc">Each piece is meticulously handcrafted by our master chefs.</p>
+            </div>
+            <div class="value-item">
+                <div class="value-icon">
+                    <i class="fa-solid fa-gift"></i>
+                </div>
+                <h3 class="value-title">Luxury Packaging</h3>
+                <p class="value-desc">Beautifully encased in our signature velvet ribbons and gold-embossed boxes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Collections Section -->
+    <section id="collection" class="collection-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Curated Delights</span>
+                <h2 class="section-title">The Autumn Collection</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Savor our masterfully curated sweet creations, designed to delight the eyes and elevate the palate.</p>
+            </div>
+
+            <div class="collection-grid">
+                <!-- Item 1 -->
+                <div class="collection-card">
+                    <div class="card-image-container">
+                        <img src="https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=800&q=80" alt="Parisian Macarons" class="card-image">
+                        <div class="card-badge">Best Seller</div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-title">Parisian Macarons</h3>
+                        <p class="card-description">Delicate almond meringue shells filled with rich white chocolate ganache and fresh raspberry coulis.</p>
+                        <div class="card-footer">
+                            <span class="card-price">$24.00 <small>/ dozen</small></span>
+                            <button class="card-btn" aria-label="Add to cart"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="collection-card">
+                    <div class="card-image-container">
+                        <img src="https://images.unsplash.com/photo-1481391319762-47dff72954d4?auto=format&fit=crop&w=800&q=80" alt="Artisanal Chocolates" class="card-image">
+                        <div class="card-badge">Signature</div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-title">Artisanal Chocolates</h3>
+                        <p class="card-description">Assorted single-origin dark and milk chocolates infused with lavender, sea salt caramel, and orange blossom.</p>
+                        <div class="card-footer">
+                            <span class="card-price">$38.00 <small>/ 16 pcs</small></span>
+                            <button class="card-btn" aria-label="Add to cart"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="collection-card">
+                    <div class="card-image-container">
+                        <img src="https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=800&q=80" alt="Gourmet Cupcakes" class="card-image">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-title">Gourmet Cupcakes</h3>
+                        <p class="card-description">Fluffy Madagascar vanilla sponge topped with silky Swiss meringue buttercream and edible gold leaf.</p>
+                        <div class="card-footer">
+                            <span class="card-price">$18.00 <small>/ 6 pcs</small></span>
+                            <button class="card-btn" aria-label="Add to cart"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="collection-card">
+                    <div class="card-image-container">
+                        <img src="https://images.unsplash.com/photo-1548907040-4d42b52125ca?auto=format&fit=crop&w=800&q=80" alt="Classic Truffles" class="card-image">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-title">Classic Truffles</h3>
+                        <p class="card-description">Velvety dark chocolate ganache dusted in premium French cocoa powder, hinting at aged cognac.</p>
+                        <div class="card-footer">
+                            <span class="card-price">$42.00 <small>/ 12 pcs</small></span>
+                            <button class="card-btn" aria-label="Add to cart"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="collection-card">
+                    <div class="card-image-container">
+                        <img src="https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=800&q=80" alt="Fruit Tarts" class="card-image">
+                        <div class="card-badge">Seasonal</div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-title">Fruit Tarts</h3>
+                        <p class="card-description">Buttery shortcrust pastry filled with crème pâtissière, topped with fresh glazed berries and kiwi.</p>
+                        <div class="card-footer">
+                            <span class="card-price">$32.00 <small>/ 4 pcs</small></span>
+                            <button class="card-btn" aria-label="Add to cart"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="collection-card">
+                    <div class="card-image-container">
+                        <img src="https://images.unsplash.com/photo-1581798459219-318e76aecc7b?auto=format&fit=crop&w=800&q=80" alt="Glacé Fruits" class="card-image">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-title">Glacé Fruits</h3>
+                        <p class="card-description">Traditional candied clementines, cherries, and pears preserved using royal French recipes.</p>
+                        <div class="card-footer">
+                            <span class="card-price">$28.00 <small>/ gift jar</small></span>
+                            <button class="card-btn" aria-label="Add to cart"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">What They Say</span>
+                <h2 class="section-title">Sweet Words</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="testimonials-slider">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "La Douceur is not just a sweet shop; it is an experience. The Parisian Macarons transported me straight back to Saint-Germain-des-Prés. The attention to detail is extraordinary."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4 class="author-name">Eleanor Vance</h4>
+                            <p class="author-title">Vogue Contributor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "The artisanal chocolates are a revelation. Each flavor is subtle yet distinct, and the gold-embossed packaging makes it the ultimate luxury gift. Truly master-class confectionery."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4 class="author-name">Charles Dupont</h4>
+                            <p class="author-title">Michelin-Starred Chef</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "We ordered fruit tarts and truffles for our private gallery opening. Our guests were absolutely enchanted. Magnificent taste and equally stunning presentation."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4 class="author-name">Sophia Sterling</h4>
+                            <p class="author-title">Art Curator</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container newsletter-box">
+            <div class="newsletter-content">
+                <h2 class="newsletter-title">Join the Sweet Club</h2>
+                <p class="newsletter-desc">Subscribe to receive exclusive invitations to our tasting events, seasonal collections, and artisanal recipes.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing to La Douceur!');">
+                    <input type="email" placeholder="Your Email Address" required class="newsletter-input">
+                    <button type="submit" class="btn btn-primary btn-submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Section -->
+    <footer id="contact" class="footer">
+        <div class="container footer-grid">
+            <!-- Brand Column -->
+            <div class="footer-col footer-brand">
+                <a href="#" class="logo footer-logo">La Douceur</a>
+                <p class="brand-desc">Creating moments of pure luxury and sweetness since 1924. Experience the haute couture of French confectionery.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-link" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+                    <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!-- Hours Column -->
+            <div class="footer-col">
+                <h3 class="footer-title">Boutique Hours</h3>
+                <ul class="footer-list">
+                    <li><span class="day">Monday - Friday</span> <span class="time">09:00 AM - 08:00 PM</span></li>
+                    <li><span class="day">Saturday</span> <span class="time">10:00 AM - 09:00 PM</span></li>
+                    <li><span class="day">Sunday</span> <span class="time">10:00 AM - 06:00 PM</span></li>
+                    <li class="holiday-note">* Closed on national holidays</li>
+                </ul>
+            </div>
+
+            <!-- Contact Column -->
+            <div class="footer-col">
+                <h3 class="footer-title">Contact Us</h3>
+                <ul class="footer-list contact-list">
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>128 Rue du Faubourg Saint-Honoré, 75008 Paris, France</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+33 (0) 1 42 68 53 00</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>boutique@ladouceur.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright Note -->
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p class="copyright">&copy; 2023 La Douceur. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Shipping & Returns</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Simple JS for Mobile Menu and Scroll Effects -->
+    <script>
+        // Mobile Navigation Toggle
+        const mobileToggle = document.querySelector('.mobile-nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        mobileToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            const icon = mobileToggle.querySelector('i');
+            if (navMenu.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-xmark');
+            } else {
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Close menu when a link is clicked
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                const icon = mobileToggle.querySelector('i');
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            });
+        });
+
+        // Header Scroll Effect
+        const header = document.querySelector('.header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+            
+            // Update active link on scroll
+            let current = '';
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= (sectionTop - 150)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
